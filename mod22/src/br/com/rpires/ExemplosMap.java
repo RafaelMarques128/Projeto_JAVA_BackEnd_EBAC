@@ -19,5 +19,8 @@ public class ExemplosMap {
         IntStream steam1 = lista.stream()
                 .filter(pessoa -> pessoa.getNacionalidade().equals("Brasil"))
                 .mapToInt(Pessoa::getIdade);
+
+        System.out.println(steam.toList());
+        System.out.println(steam1);
     }
 }

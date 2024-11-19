@@ -1,8 +1,5 @@
-package br.com.rpires.dao;
+package br.com.rpires.tarefaMod24.testes.dao;
 
-/**
- * @author rodrigo.pires
- */
 public class ContratoDao implements IContratoDao {
 
     @Override
@@ -12,16 +9,17 @@ public class ContratoDao implements IContratoDao {
 
     @Override
     public void buscar() {
-
+        throw new UnsupportedOperationException("Não funciona com o banco");
     }
 
     @Override
     public void excluir() {
-
+        throw new UnsupportedOperationException("Não funciona com o banco");
     }
 
     @Override
     public void atualizar() {
-
+        throw new UnsupportedOperationException("Não funciona com o banco");
     }
 }
+

@@ -39,7 +39,6 @@ public class ClienteServiceTest {
 		cliente.setEstado("SP");
 		cliente.setNumero(10);
 		cliente.setTel(1199999999L);
-		
 	}
 	
 	@Test
